@@ -30,4 +30,5 @@ jobs:
       # Start Frontend Server
       - name: Start frontend server
         working-directory: frontend
+        run: npm install --save react react-dom react-scripts 
         run: npm test
