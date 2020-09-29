@@ -25,9 +25,9 @@ jobs:
       # Test Backend Server
       - name: Start backend server
         working-directory: backend
-        run: npm start
+        run: npm test
 
       # Start Frontend Server
       - name: Start frontend server
         working-directory: frontend
-        run: npm start
+        run: npm test
