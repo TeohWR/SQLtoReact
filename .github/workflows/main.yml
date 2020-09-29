@@ -31,4 +31,7 @@ jobs:
       - name: Start frontend server
         working-directory: frontend
         run: npm install --save react react-dom react-scripts 
+      
+      #Test
+      - name : Test
         run: npm test
