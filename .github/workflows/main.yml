@@ -22,7 +22,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Start Backend Server
+      # Test Backend Server
       - name: Start backend server
         working-directory: backend
         run: npm test
@@ -30,4 +30,4 @@ jobs:
       # Start Frontend Server
       - name: Start frontend server
         working-directory: frontend
-        run: npm test
+        run: npm start
