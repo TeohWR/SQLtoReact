@@ -23,9 +23,9 @@ jobs:
       - uses: actions/checkout@v2
 
       # Test Backend Server
-      - name: Test Backend server
+      - name: Test Backend server main script js file
         working-directory: backend
-        run: npm start
+        run: node server.js
 
       # Re-install dependencies
       - name: npm install
@@ -35,4 +35,4 @@ jobs:
       # Test Frontend Server
       - name : Test Frontend Server
         working-directory: frontend
-        run: npm start
+        run: npm test
