@@ -11,6 +11,6 @@ app.use(cors());
 app.use(bodyParser.json());
 
 //app.use("/customer", customer_router);
-app.use("/users", users_routerCREATING INTENTIONAL ERROR);
+app.use("/users", users_router);
 
 module.exports = app;
