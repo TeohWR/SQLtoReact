@@ -25,7 +25,7 @@ jobs:
       # Test Backend Server
       - name: Test Backend server
         working-directory: backend
-        run: npm test
+        run: npm start
 
       # Re-install dependencies
       - name: npm install
@@ -35,4 +35,4 @@ jobs:
       # Test Frontend Server
       - name : Test Frontend Server
         working-directory: frontend
-        run: npm test
+        run: npm start
