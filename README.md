@@ -6,4 +6,4 @@
 
 Simple files setup to draw data from MySQL server, extracting "Users" table through API call then sending these information to the frontend set up using React.
 
-![Screenshot](Screenshot_of_output.jpg)
+![Screenshot](Screenshot_of_Output.JPG)
