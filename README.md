@@ -1,6 +1,6 @@
 # SQLtoReact
 
-## Sending data from MySQL(BackEnd) to React Webpage (FrontEnd)
+## Sending data from MySQL(BackEnd) built using Express to React Webpage (FrontEnd)
 
 ### Workflow is set up to run through NPM test to make sure nothing is corrupted 
 
